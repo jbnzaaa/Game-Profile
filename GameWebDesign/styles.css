@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: #F8F8F8;
+    width: 390px;
+    padding: 14px 14px 0 14px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#card-1{
+    background: #FCD116;
+}
+
+#card-2{
+    background: #0266BB;
+}
+
+#card-3{
+    background: #E90B0B;
+}
+
+#color{
+    color: #F2F3F2;
+}
+
+/*card header*/
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.card-header .links a{
+    margin: 4px;
+}
+
+.card-header .links .myProfile{
+    text-decoration: none;
+    color: #18211B;
+    font-weight: 700;
+}
+
+.card-header .links .store{
+    text-decoration: none;
+    color: #18211B;
+}
+
+/*card image*/
+.card-image{
+    text-align: center;
+    margin: 20px 10px 15px 10px;
+}
+
+.card-image #main{
+    width: 95%;
+    position: relative;
+    z-index: 1;
+}
+
+.card-image #subs{
+    fill: #FFE54D;
+    width: 22%;
+    left: 190px;
+    top: 100px;
+    position: absolute;
+}
+
+.card-image #subss{
+    fill: #FFE54D;
+    width: 22%;
+    left: 600px;
+    top: 100px;
+    position: absolute;
+}
+
+.card-image #subsss{
+    fill: #FFE54D;
+    width: 22%;
+    left: 1010px;
+    top: 100px;
+    position: absolute;
+}
+
+/*card profile*/
+.card-profile{
+    margin: 10px;
+}
+
+.card-profile h4{
+    color: #B31539;
+}
+
+.card-profile .username{
+    font-weight: 700;
+    font-size: 25px;
+    color: #18211B;
+}
+
+.card-profile .role{
+    font-size: 20px;
+    color: #18211B;
+}
+
+/*card teams*/
+.card-teams{
+    margin: 10px;
+}
+
+.card-teams p{
+    font-size: 14px;
+    text-decoration: none;
+    color: #18211B;
+    text-align: right;
+}
+
+.card-teams .team-stats{
+    display: flex;
+    margin: 8px 0 14px 0;
+}
+
+.card-teams .team-stats .profile{
+    float: left;
+}
+
+.card-teams .team-profile img{
+    float: right;
+    width: 16%;
+    border-radius: 12px;
+    margin: 4px;
+}
+
+/*card-stats*/
+.card-stats{
+    background: #18211B;
+    padding-bottom: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-stats .main-stats{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-stats .main-stats .battle-stats{
+    font-size: 14px;
+    color: #F2F3F2;
+}
+
+.card-stats .main-stats .battle-stats .line{
+    background: #FCD116;
+    width: 56px;
+    height: 3px;
+    margin-top: 5px;
+}
+
+.card-stats .main-stats .team-chat button{
+    /*background: #F9D317;*/
+    background: #FCD116;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: #18211B;
+}
+
+
+
+
